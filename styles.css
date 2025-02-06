@@ -147,9 +147,21 @@ header p {
   }
   
   /* About Section */
-  .about {
-    padding: 40px 0;
-  }
+  #about-blessing {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.blessing-image {
+    width: 200px; /* Adjust size as needed */
+    height: 200px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
   
   .about h2 {
     text-align: center;
